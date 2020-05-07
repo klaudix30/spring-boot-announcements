@@ -28,7 +28,6 @@ import java.util.Optional;
 @RequestMapping("/announcements")
 @Slf4j
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
 public class AnnouncementController {
 	
 	private final AnnouncementService announService;
